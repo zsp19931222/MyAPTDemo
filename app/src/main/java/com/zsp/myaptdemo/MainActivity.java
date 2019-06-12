@@ -9,6 +9,17 @@ import android.widget.Toast;
 
 import com.zsp.javalib.BindView;
 
+/**
+ * APT(Annotation Processing Tool)是一种处理注释的工具,
+ * 它对源代码文件进行检测找出其中的Annotation，
+ * 使用Annotation进行额外的处理。
+ * Annotation处理器在处理Annotation时可以根据源文件中的Annotation生成额外的源文件和其它的文件(文件具体内容由Annotation处理器的编写者决定),
+ * APT还会编译生成的源文件和原来的源文件，
+ * 将它们一起生成class文件。
+ *
+ * @author Andy
+ *         created at 2019/6/12 0012 14:16
+ */
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.tv)
     TextView textView;
